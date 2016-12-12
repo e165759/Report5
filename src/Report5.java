@@ -10,7 +10,8 @@ public class Report5 {
             finally{例外の有無にかかわらず、最終的に実行させたい処理}
          */
         try {
-            String str = null;
+            String str = "3．14";
+            Double value = Double.parseDouble(str);
             System.out.println(str.length());
         } catch (NullPointerException e) {
             System.out.println("例外発生！");
